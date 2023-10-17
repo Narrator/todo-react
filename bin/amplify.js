@@ -2,12 +2,12 @@
 const path = require("path");
 const { cpSync, mkdirSync, writeFileSync } = require("fs");
 
-mkdirSync(path.join(__dirname, "..", ".amplify-hosting", "static"), {
+mkdirSync(path.join(__dirname, "..", ".amplify-hosting", "static", "todo-react"), {
   recursive: true,
 });
 cpSync(
   path.join(__dirname, "..", "build"),
-  path.join(__dirname, "..", ".amplify-hosting", "static"),
+  path.join(__dirname, "..", ".amplify-hosting", "static", "todo-react"),
   {
     recursive: true,
   }
