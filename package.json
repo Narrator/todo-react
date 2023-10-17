@@ -14,7 +14,7 @@
     "next": "100"
   },
   "resolutions": {
-    "react": "^18.2.0"
+    "next": "npm:react@^18.2.0"
   },
   "engines": {
     "node": ">=18.0.0"
