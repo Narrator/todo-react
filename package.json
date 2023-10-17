@@ -8,13 +8,10 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^14.4.3",
     "nanoid": "^4.0.0",
+    "next": "^13.5.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
-    "next": "100"
-  },
-  "resolutions": {
-    "next": "npm:react@^18.2.0"
+    "react-scripts": "5.0.1"
   },
   "engines": {
     "node": ">=18.0.0"
