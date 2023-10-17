@@ -10,7 +10,11 @@
     "nanoid": "^4.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1"
+    "react-scripts": "5.0.1",
+    "next": "100"
+  },
+  "resolutions": {
+    "react": "^18.2.0"
   },
   "engines": {
     "node": ">=18.0.0"

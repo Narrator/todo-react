@@ -17,7 +17,7 @@ const deployManifest = {
   version: 1,
   framework: {
     name: "react",
-    version: "1.0",
+    version: "18.2.0",
   },
   routes: [
     {
